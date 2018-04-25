@@ -1,4 +1,4 @@
-package proxy.dinamico;
+package proxy.dynamic;
 
 public class Usuario {
 	

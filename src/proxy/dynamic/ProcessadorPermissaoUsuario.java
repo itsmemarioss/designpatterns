@@ -1,9 +1,9 @@
-package proxy.dinamico;
+package proxy.dynamic;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
-import proxy.dinamico.Usuario.Permissao;
+import proxy.dynamic.Usuario.Permissao;
 
 /**
  * Processaor utilizado no proxy dinâmico.
