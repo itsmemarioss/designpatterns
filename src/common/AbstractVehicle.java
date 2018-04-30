@@ -30,7 +30,7 @@ public abstract class AbstractVehicle implements Vehicle{
 
 	@Override
 	public String toString() {
-		return "AbstractVehicle [engine=" + engine + ", colour=" + colour + "]";
+		return this.getClass().getSimpleName()+ " [engine=" + engine + ", colour=" + colour + "]";
 	}
 
 }
