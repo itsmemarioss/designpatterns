@@ -2,6 +2,11 @@ package creational.factorymethod;
 
 import common.Vehicle;
 
+/**
+ * Purpose: Define an interface for creating an object, but let subclasses decide which class to instaciate. 
+ * @author mario
+ *
+ */
 public abstract class VehicleFactory {
 	
 	public enum DrivingStyle { ECONOMICAL, MIDRANGE, POWERFUL};

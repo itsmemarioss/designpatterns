@@ -32,5 +32,16 @@ public abstract class AbstractVehicle implements Vehicle{
 	public String toString() {
 		return this.getClass().getSimpleName()+ " [engine=" + engine + ", colour=" + colour + "]";
 	}
+	
+	@Override
+	public Object clone() {
+		Object obj = null;
+		try {
+			obj = super.clone();
+		}catch (CloneNotSupportedException  e) {
+			// TODO: handle exception
+		}
+		return obj;
+	}
 
 }
