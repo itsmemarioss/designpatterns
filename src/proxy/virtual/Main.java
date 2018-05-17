@@ -16,7 +16,7 @@ public class Main {
 		//2. Optional: What happens when the frame closes?
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-		frame.setSize(500, 500);
+		frame.setSize(600, 600);
 
 		URL url = new URL("https://c.tadst.com/gfx/750w/sunrise-sunset-sun-calculator.jpg");
 		Icon icon = new ImageProxy(url);
