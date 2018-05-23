@@ -32,6 +32,30 @@ public class SuperGreenEngineAdapter2 implements Engine{
 	public String toString() {
 		return engine.toString();
 	}
+
+	@Override
+	public void start() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void stop() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void increasePower() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void decreasePower() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 
