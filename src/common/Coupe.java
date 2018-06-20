@@ -10,4 +10,9 @@ public class Coupe extends AbstractCar {
 		super(engine, colour);
 	}
 
+	@Override
+	public double getPrice() {
+		return 100.5;
+	}
+
 }

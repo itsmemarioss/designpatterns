@@ -10,4 +10,9 @@ public class Saloon extends AbstractCar {
 		super(engine, colour);
 	}
 
+	@Override
+	public double getPrice() {
+		return 200;
+	}
+
 }

@@ -10,4 +10,9 @@ public class Sport extends AbstractCar {
 		super(engine, colour);
 	}
 
+	@Override
+	public double getPrice() {
+		return 1000.99;
+	}
+
 }

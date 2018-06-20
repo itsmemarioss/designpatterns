@@ -11,4 +11,9 @@ public class Pickup extends AbstractVan {
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
+	public double getPrice() {
+		return 400;
+	}
+
 }

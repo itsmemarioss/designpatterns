@@ -7,6 +7,7 @@ public interface Vehicle extends Cloneable{
 	Engine getEngine();
 	Colour getColour();
 	void paint(Colour colour);
+	double getPrice();
 	
 	Object clone();
 
