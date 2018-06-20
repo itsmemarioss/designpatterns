@@ -1,6 +1,6 @@
-package proxy.dynamic;
+package structural.proxy.dynamic;
 
-import proxy.dynamic.Usuario.Permissao;
+import structural.proxy.dynamic.Usuario.Permissao;
 
 /**
  * classe usada no proxy

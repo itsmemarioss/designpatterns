@@ -1,4 +1,4 @@
-package proxy.virtual;
+package structural.proxy.virtual;
 
 import java.awt.Component;
 import java.awt.Graphics;

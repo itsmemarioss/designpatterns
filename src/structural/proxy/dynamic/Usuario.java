@@ -1,4 +1,4 @@
-package proxy.dynamic;
+package structural.proxy.dynamic;
 
 public class Usuario {
 	

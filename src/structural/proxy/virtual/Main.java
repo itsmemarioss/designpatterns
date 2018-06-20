@@ -1,4 +1,4 @@
-package proxy.virtual;
+package structural.proxy.virtual;
 
 import java.net.MalformedURLException;
 import java.net.URL;

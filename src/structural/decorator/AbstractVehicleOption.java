@@ -14,11 +14,11 @@ import common.Vehicle;
  */
 public abstract class AbstractVehicleOption extends AbstractVehicle {
 	
-	protected Vehicle vehicle;
+	protected Vehicle decoratedVehicle;
 
 	public AbstractVehicleOption(Vehicle vehicle) {
 		super(vehicle.getEngine());
-		this.vehicle = vehicle;
+		this.decoratedVehicle = vehicle;
 	}
 
 }

@@ -1,8 +1,8 @@
-package proxy.dynamic;
+package structural.proxy.dynamic;
 
 import java.lang.reflect.Proxy;
 
-import proxy.dynamic.Usuario.Permissao;
+import structural.proxy.dynamic.Usuario.Permissao;
 
 /**
  * Proxy dinâmico usado cara conferir permissão de excutar ação.
