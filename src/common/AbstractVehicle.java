@@ -44,4 +44,32 @@ public abstract class AbstractVehicle implements Vehicle{
 		return obj;
 	}
 
+	@Override
+	public double getPrice() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void cleanInterior() {
+		System.out.println("cleaning interior...");
+	}
+
+	@Override
+	public void cleanExteriorBody() {
+		System.out.println("cleaning exetrior body...");
+	}
+
+	@Override
+	public void polishWindows() {
+		System.out.println("polishing windows...");
+	}
+
+	@Override
+	public void takeForTestDrive() {
+		System.out.println("takin for test drive...");
+	}
+	
+	
+
 }

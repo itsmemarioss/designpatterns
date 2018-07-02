@@ -8,7 +8,13 @@ public interface Vehicle extends Cloneable{
 	Colour getColour();
 	void paint(Colour colour);
 	double getPrice();
+	void cleanInterior();
+	void cleanExteriorBody();
+	void polishWindows();
+	void takeForTestDrive();
 	
 	Object clone();
+	
+	
 
 }
