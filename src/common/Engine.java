@@ -8,4 +8,6 @@ public interface Engine {
 	void stop();
 	void increasePower();
 	void decreasePower();
+	
+	void diagnose(DiagnosticTool tool);
 }

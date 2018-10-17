@@ -13,7 +13,7 @@ import common.Vehicle;
  * @author mario
  *
  */
-public class VehicleFacaede {
+public class VehicleFacade {
 
 	public void prepareForSale(Vehicle vehicle) {
 		Registration r = new Registration(vehicle);

@@ -61,5 +61,8 @@ public abstract class AbstractEngine implements Engine{
 		}
 		
 	}
-	
+	@Override
+	public void diagnose(DiagnosticTool tool) {
+		tool.runDiagnosis(this);		
+	}
 }

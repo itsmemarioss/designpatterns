@@ -1,5 +1,6 @@
 package structural.adapter;
 
+import common.DiagnosticTool;
 import common.Engine;
 
 /**
@@ -53,6 +54,12 @@ public class SuperGreenEngineAdapter2 implements Engine{
 
 	@Override
 	public void decreasePower() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void diagnose(DiagnosticTool tool) {
 		// TODO Auto-generated method stub
 		
 	}
