@@ -1,4 +1,4 @@
-package creational.abstractfactory;
+package creational.abstract_factory;
 
 public interface Body {
 	String getBodyParts();

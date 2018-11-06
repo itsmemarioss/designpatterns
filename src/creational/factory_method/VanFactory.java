@@ -1,4 +1,4 @@
-package creational.factorymethod;
+package creational.factory_method;
 
 import common.BoxVan;
 import common.Pickup;

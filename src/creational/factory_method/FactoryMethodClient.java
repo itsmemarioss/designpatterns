@@ -1,8 +1,8 @@
-package creational.factorymethod;
+package creational.factory_method;
 
 import common.Vehicle;
 import common.Vehicle.Colour;
-import creational.factorymethod.VehicleFactory.DrivingStyle;
+import creational.factory_method.VehicleFactory.DrivingStyle;
 
 public class FactoryMethodClient {
 	public static void main(String[] args) {
